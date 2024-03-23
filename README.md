@@ -1,5 +1,5 @@
 # Quick-Cut Tool
-A handy tool for cutting videos shorter. Simply Drag&Drop your video into <b>cut.bat</b>. Designed to work with Nvidia's recorder. It's recommended to record your microphone in a separate track, you can set this inside Nvidia's overlay.
+A handy tool for cutting videos shorter without the need to re-encode your video. Simply Drag&Drop your video into <b>cut.bat</b>. Designed to work with Nvidia's recorder. It's recommended to record your microphone in a separate track, you can set this inside Nvidia's overlay.
 
 ## Usage
 1. Download the latest ffmpeg package from https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z</br>
