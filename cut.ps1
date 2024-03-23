@@ -1,15 +1,13 @@
 #PS 5.1+
 
 #Receive arguments from batch file
-[CmdletBinding()]
 param (
-    [Parameter(ValueFromRemainingArguments=$true)]
-    $argumentList
+    [string]$path
 )
-$path = $argumentList[0] #list to string
 
 #Check if mp4 file format
 if (((Test-Path $path -PathType Leaf) -ne $True) -or (([System.IO.Path]::GetExtension($path)) -ne ".mp4")){
+	Write-Host "Input:",$path
 	Write-Host "Invalid input file, exiting..."
 	pause
 	Stop-Process -ID $PID -Force
