@@ -4,7 +4,7 @@ A handy tool for cutting videos shorter without the need to re-encode your video
 ## Usage
 1. Download the latest ffmpeg package from https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z</br>
    <i>or build your own ffmpeg for slightly faster processing (no flags are needed)</i></br>
-   <i>or install ffmpeg with <code>winget install ffmpeg</code></i>
+   <i>or <b>Recommended:</b> install ffmpeg with <code>winget install ffmpeg</code></i>
 2. Extract ffmpeg.exe
 3. Place the scripts and ffmpeg.exe to the same folder
 4. Drag&drop the video into cut.bat
@@ -14,7 +14,7 @@ A handy tool for cutting videos shorter without the need to re-encode your video
 ## Tips
 Instead of the 0:00 time format, you can write it down in second's format too.</br>
 The 0:00.000 time format is also accepted.</br>
-The endpoint is defaulted to the <b>end of the video</b> and the microphone is defaulted to <b>NOT</b> save the microphone.</br>
+The endpoint is defaulted to the <b>end of the video</b> and by default it saves tracks 1,2 and 3, you can change this behavior in the <b>tracks</b> variable.</br>
 If you don't record multiple tracks, then select track 1.
 If you do record your microphone or other tracks, then after saving your audio tracks the new file will have all the tracks merged.
 
